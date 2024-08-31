@@ -262,6 +262,7 @@ body {
     display: flex;
     column-gap: 18px;
     justify-content: center;
+    padding-bottom: 14px;
 }
 
 .hero__left {
