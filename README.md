@@ -56,6 +56,7 @@ _Add screenshots of your project here to showcase your final output. You can inc
 - Vanilla CSS (No Framework)
 - Mobile-first workflow
 - Javascript - For interactive navbar
+- Animate on Scroll (AOS)
 
 ### What I Learned
 
