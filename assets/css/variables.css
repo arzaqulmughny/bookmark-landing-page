@@ -1,0 +1,16 @@
+:root {
+    /* Breakpoints */
+    --screen-mobile: 375px;
+    --screen-desktop: 1440px;
+
+    /* Colors */
+    --color-soft-blue: hsl(231, 69%, 60%);
+    --color-soft-red: hsl(0, 94%, 66%);
+    --color-grayish-blue: hsl(229, 8%, 60%);
+    --color-very-dark-blue: hsl(229, 31%, 21%);
+    --color-very-dark-blue-alpha: hsla(229, 31%, 21%, 95%);
+
+    /* Typography */
+    --font-size: 18px;
+    --font-primary: 'Rubik', sans-serif;
+}

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Bookmark</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+
+        <!-- Custom style -->
+        <link
+            rel="stylesheet"
+            href="assets/css/variables.css"
+        />
+        <link
+            rel="stylesheet"
+            href="assets/css/style.css"
+        />
+
+        <!-- Fonts -->
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Animate on scroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__wrapper">
+                <div class="navbar__left">
+                    <div class="logo">
+                        <img
+                            src="assets/images/logo-bookmark.svg"
+                            alt="Bookmark Logo"
+                        />
+                    </div>
+                </div>
+
+                <div class="navbar__right">
+                    <ul class="navbar__links">
+                        <li>
+                            <a
+                                href="#"
+                                class="navbar-link"
+                                >Features</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="navbar-link"
+                                >Pricing</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="navbar-link"
+                                >Contact</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="button button--cta"
+                                >LOGIN</a
+                            >
+                        </li>
+                    </ul>
+
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        onclick="toggleNavbarMobile()"
+                    >
+                        <img
+                            src="/assets/images/icon-hamburger.svg"
+                            alt="Toggle Navbar"
+                        />
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <nav
+            class="navbar-mobile"
+            id="navbar-mobile"
+        >
+            <div class="navbar-mobile__wrapper">
+                <div class="navbar-mobile__head">
+                    <div class="navbar-mobile__logo">
+                        <img
+                            src="/assets/images/logo-bookmark.svg"
+                            alt="Bookmark Logo"
+                        />
+                    </div>
+
+                    <button
+                        class="navbar-close"
+                        type="button"
+                        onclick="toggleNavbarMobile()"
+                    >
+                        <img
+                            src="/assets/images/icon-close.svg"
+                            alt="Close Navbar"
+                        />
+                    </button>
+                </div>    aspect-ratio: 1/1;
+
+
+                <ul class="navbar-mobile__links">
+                    <li class="navbar-mobile-link">
+                        <a href="#">Features</a>
+                    </li>
+                    <li class="navbar-mobile-link">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="navbar-mobile-link">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <button
+                    type="button"
+                    class="navbar-mobile__login"
+                >
+                    Login
+                </button>
+
+                <div class="navbar-mobile__footer">
+                    <img
+                        src="/assets/images/icon-facebook.svg"
+                        alt=""
+                    />
+                    <img
+                        src="/assets/images/icon-twitter.svg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <header class="hero">
+                <div class="hero__left">
+                    <h1 class="hero__title h1" data-aos="fade-right" data-aos-delay="300">A Simple Bookmark Manager</h1>
+                    <p class="hero__description p" data-aos="fade-up" data-aos-delay="500">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div class="hero__cta" data-aos="fade-up" data-aos-delay="600">
+                        <a
+                            href=""
+                            class="button button--primary"
+                            >Get it on Chrome</a
+                        >
+                        <a
+                            href=""
+                            class="button button--secondary"
+                            >Get it on Firefox</a
+                        >
+                    </div>
+                </div>
+                <div class="hero__right" data-aos='fade-left'
+                >
+                    <img
+                        src="/assets/images/illustration-hero.svg"
+                        alt=""
+                    />
+                </div>
+            </header>
+
+            <main class="main">
+                <section class="features-section">
+                    <div class="features__header" data-aos='fade-up'>
+                        <h2 class="features__title h2">Features</h2>
+                        <p class="features__description p">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                    </div>
+
+                    <ul class="features-tabs" data-aos='fade-up'>
+                        <li>
+                            <a
+                                href="#"
+                                class="features-tab features-tab--active"
+                                >Simple Bookmarking</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="features-tab"
+                                >Speedy Searching</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="features-tab"
+                                >Easy Sharing</a
+                            >
+                        </li>
+                    </ul>
+
+                    <div class="features__content">
+                        <div class="features__left" data-aos='fade-right'>
+                            <img
+                                src="/assets/images/illustration-features-tab-1.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="features__right" data-aos='fade-left'>
+                            <h2 class="features__title">Bookmark in one click</h2>
+                            <p class="p features__body">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            <a href="#" class="button button--primary" style='width: fit-content;'>More Info</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="download-section">
+                    <div class="download-section__header" data-aos='fade-up'>
+                        <h2 class="download-section__title">Download the extension</h2>
+                        <p class="download-section__paragraph p">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+                    </div>
+
+                    <ul class="download-section__browsers">
+                        <li class="download-section-browser" data-aos='fade-up' data-aos-delay='300'>
+                            <div class="download-section-browser__image">
+                                <img
+                                    src="/assets/images/logo-chrome.svg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="download-section-browser__header">
+                                <h1 class="download-section-browser__title">Add to Chrome</h1>
+                                <p class="download-section-browser__description">Minimum version 62</p>
+                            </div>
+
+                            <div class="download-section-browser__footer">
+                                <a
+                                    href=""
+                                    class="button button--primary"
+                                    >Add & Install Extension</a
+                                >
+                            </div>
+                        </li>
+
+                        <li class="download-section-browser" data-aos='fade-up' data-aos-delay='600'>
+                            <div class="download-section-browser__image">
+                                <img
+                                    src="/assets/images/logo-firefox.svg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="download-section-browser__header">
+                                <h1 class="download-section-browser__title">Add to Firefox</h1>
+                                <p class="download-section-browser__description">Minimum version 55</p>
+                            </div>
+
+                            <div class="download-section-browser__footer">
+                                <a
+                                    href=""
+                                    class="button button--primary"
+                                    >Add & Install Extension</a
+                                >
+                            </div>
+                        </li>
+
+                        <li class="download-section-browser" data-aos='fade-up' data-aos-delay='900'>
+                            <div class="download-section-browser__image">
+                                <img
+                                    src="/assets/images/logo-opera.svg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="download-section-browser__header">
+                                <h1 class="download-section-browser__title">Add to Opera</h1>
+                                <p class="download-section-browser__description">Minimum version 46</p>
+                            </div>
+
+                            <div class="download-section-browser__footer">
+                                <a
+                                    href=""
+                                    class="button button--primary"
+                                    >Add & Install Extension</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="faq-section">
+                    <div class="faq-section__header" data-aos='fade-up'>
+                        <h2 class="faq-section__title">Frequently Asked Questions</h2>
+                        <p class="p faq-section__description">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+                    </div>
+
+                    <ul class="faq-list" data-aos='fade-up'>
+                        <li class="faq">
+                            <div class="faq__question">What is bookmark?</div>
+                        </li>
+                        <li class="faq">
+                            <div class="faq__question">How can I request new browsers?</div>
+                        </li>
+                        <li class="faq">
+                            <div class="faq__question">Is there a mobile app?</div>
+                        </li>
+                        <li class="faq">
+                            <div class="faq__question">What about other Chromium browsers?</div>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="button button--primary" style='width: fit-content;' data-aos='fade-up'>More Info</a>
+                </section>
+            </main>
+        </div>
+
+        <footer style='margin-top: 36px;'>
+            <div class="subscribe">
+                <div class="subscribe__header">
+                    <h1 class='subscribe__title'>35,000+ ALREADY JOINED</h1>
+                    <h2 class='susbcribe__subtitle'>Stay up-to-date with what we're doing</h2>
+                </div>
+
+                <form class="subscribe__body">
+                    <input type="text" class="subscribe__input" placeholder='Enter your email address'>
+                    <button type="submit" class="button button--cta" style='width: fit-content;'>Contact Us</button>
+                </form>
+            </div>
+
+            <div class="footer">
+                <div class="footer__logo">
+                    <img src="/assets/images/logo-bookmark.svg" alt="">
+                </div>
+                <a href="#" class='footer-link'>Features</a>
+                <a href="#" class='footer-link'>Pricing</a>
+                <a href="#" class='footer-link'>Contact</a>
+                <ul class="footer-socials">
+                    <li class="footer-social">
+                        <a href="#"><img src="/assets/images/icon-facebook.svg" alt=""></a>
+                    </li>
+                    <li class="footer-social">
+                        <a href="#"><img src="/assets/images/icon-twitter.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="assets/scripts/navbar.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
