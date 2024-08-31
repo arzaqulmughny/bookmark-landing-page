@@ -76,7 +76,7 @@ In future projects, I plan to explore HTML5 accessibility features, specifically
 ## Author
 
 - Website - [Arzaqul Mughny](https://arza.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/arzaqulmughny)
+- Frontend Mentor - [@arzaqulmughny](https://www.frontendmentor.io/profile/arzaqulmughny)
 
 ## Acknowledgments
 
